@@ -10,7 +10,7 @@ let {
         NativeModules,
         PixelRatio  /*像素转换工具*/
     }=require('react-native');
-let resolveAssetSource = require('resolveAssetSource'); /*解析静态图片工具*/
+// let resolveAssetSource = require('resolveAssetSource'); /*解析静态图片工具*/
 import MapView from '../MapView.js';
 import Point2D from '../Point2D.js';
 import Point from '../Point.js';
@@ -71,10 +71,13 @@ class SMMapView extends React.Component{
                             arr[i].left = pixalPoint.x / PixelRatio.get();
 
                             //调整图标锚点位置
-                            const sourceBody = resolveAssetSource(arr[i].uri);
-                            let {width,height} = sourceBody;
-                            var offY = arr[i].top - height;
-                            var offX = arr[i].left - width/2;
+                            // const sourceBody = resolveAssetSource(arr[i].uri);
+                            // let {width,height} = sourceBody;
+                            // var offY = arr[i].top - height;
+                            // var offX = arr[i].left - width/2;
+
+                            var offY = arr[i].top;
+                            var offX = arr[i].left;
 
                             var indexer = "callout" + i;
                             this.refs[indexer].setNativeProps({
@@ -147,10 +150,13 @@ class SMMapView extends React.Component{
                         if(!item.uri) {return false;}
                         return true;
                     }).map((item,index) => {
-                        const sourceBody = resolveAssetSource(item.uri);
-                        let {width,height} = sourceBody;
-                        var offY = item.top - height;
-                        var offX = item.left - width/2;
+                        {/*const sourceBody = resolveAssetSource(item.uri);*/}
+                        {/*let {width,height} = sourceBody;*/}
+                        {/*var offY = item.top - height;*/}
+                        {/*var offX = item.left - width/2;*/}
+                        var offY = item.top;
+                        var offX = item.left;
+
                         var indexer = "callout" + index;
                         return <Image key={index} ref={indexer} source={item.uri} style={
                                                        [styles.pic,{
@@ -166,6 +172,7 @@ class SMMapView extends React.Component{
 
 var RCTMapView = requireNativeComponent('RCTMapView',SMMapView,{nativeOnly:{
     returnId:true,
+    onChange:true,
 }});
 
 var styles = StyleSheet.create({
