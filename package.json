@@ -1,6 +1,6 @@
 {
   "name": "supermap",
-  "version": "0.1.22",
+  "version": "0.1.24",
   "description": "基于React Native技术框架的超图地理信息应用开发工具，使用javascript语言即可编写地图移动应用程序！Supermap GIS SDK production base on React Native framework, which program geology App with Javascript language!",
   "main": "index.js",
   "scripts": {

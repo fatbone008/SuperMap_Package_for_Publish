@@ -1,7 +1,7 @@
 /**
  * Created by will on 2016/6/15.
  */
-let React = require('React');
+let React = require('react');
 let {
         requireNativeComponent,
         View,
