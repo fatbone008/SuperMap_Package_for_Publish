@@ -53,4 +53,12 @@ RCT_REMAP_METHOD(getCurrentGeometry,getCurrentGeometryById:(NSString*)Id resolve
     reject(@"mapControl",@"getCurrentGeometry failed!!!",nil);
   }
 }
+
+RCT_REMAP_METHOD(setRefreshListener,setRefreshListenerById:(NSString*)Id resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject){
+    if (Id) {
+        resolve(@"1");
+    }else{
+        reject(@"mapControl",@"setRefreshListener failed!!!",nil);
+    }
+}
 @end
