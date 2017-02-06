@@ -19,7 +19,6 @@
 		FFD1F0221E31E22200CACDC5 /* JSDatasourceConnectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1EFD01E31E22200CACDC5 /* JSDatasourceConnectionInfo.m */; };
 		FFD1F0231E31E22200CACDC5 /* JSDatasources.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1EFD21E31E22200CACDC5 /* JSDatasources.m */; };
 		FFD1F0241E31E22200CACDC5 /* JSDataUploadService.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1EFD41E31E22200CACDC5 /* JSDataUploadService.m */; };
-		FFD1F0251E31E22200CACDC5 /* JSEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1EFD61E31E22200CACDC5 /* JSEnvironment.m */; };
 		FFD1F0261E31E22200CACDC5 /* JSFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1EFD81E31E22200CACDC5 /* JSFeature.m */; };
 		FFD1F0271E31E22200CACDC5 /* JSFeatureSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1EFDA1E31E22200CACDC5 /* JSFeatureSet.m */; };
 		FFD1F0281E31E22200CACDC5 /* JSGeoLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD1EFDC1E31E22200CACDC5 /* JSGeoLine.m */; };
@@ -93,8 +92,6 @@
 		FFD1EFD21E31E22200CACDC5 /* JSDatasources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSDatasources.m; path = objNative/JSDatasources.m; sourceTree = "<group>"; };
 		FFD1EFD31E31E22200CACDC5 /* JSDataUploadService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSDataUploadService.h; path = objNative/JSDataUploadService.h; sourceTree = "<group>"; };
 		FFD1EFD41E31E22200CACDC5 /* JSDataUploadService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSDataUploadService.m; path = objNative/JSDataUploadService.m; sourceTree = "<group>"; };
-		FFD1EFD51E31E22200CACDC5 /* JSEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSEnvironment.h; path = objNative/JSEnvironment.h; sourceTree = "<group>"; };
-		FFD1EFD61E31E22200CACDC5 /* JSEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSEnvironment.m; path = objNative/JSEnvironment.m; sourceTree = "<group>"; };
 		FFD1EFD71E31E22200CACDC5 /* JSFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSFeature.h; path = objNative/JSFeature.h; sourceTree = "<group>"; };
 		FFD1EFD81E31E22200CACDC5 /* JSFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSFeature.m; path = objNative/JSFeature.m; sourceTree = "<group>"; };
 		FFD1EFD91E31E22200CACDC5 /* JSFeatureSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSFeatureSet.h; path = objNative/JSFeatureSet.h; sourceTree = "<group>"; };
@@ -209,8 +206,6 @@
 				FFD1EFD21E31E22200CACDC5 /* JSDatasources.m */,
 				FFD1EFD31E31E22200CACDC5 /* JSDataUploadService.h */,
 				FFD1EFD41E31E22200CACDC5 /* JSDataUploadService.m */,
-				FFD1EFD51E31E22200CACDC5 /* JSEnvironment.h */,
-				FFD1EFD61E31E22200CACDC5 /* JSEnvironment.m */,
 				FFD1EFD71E31E22200CACDC5 /* JSFeature.h */,
 				FFD1EFD81E31E22200CACDC5 /* JSFeature.m */,
 				FFD1EFD91E31E22200CACDC5 /* JSFeatureSet.h */,
@@ -377,7 +372,6 @@
 				FFD1F02D1E31E22200CACDC5 /* JSLayer.m in Sources */,
 				FFD1F02E1E31E22200CACDC5 /* JSLayers.m in Sources */,
 				FFD1F0331E31E22200CACDC5 /* JSMapControl.m in Sources */,
-				FFD1F0251E31E22200CACDC5 /* JSEnvironment.m in Sources */,
 				FFD1F0401E31E22200CACDC5 /* JSServiceBase.m in Sources */,
 				FFD1F01E1E31E22200CACDC5 /* JSDatasets.m in Sources */,
 				FFD1F0371E31E22200CACDC5 /* JSObjManager.m in Sources */,
