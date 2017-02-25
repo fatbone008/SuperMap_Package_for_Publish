@@ -1,7 +1,7 @@
 {
   "name": "supermap",
   "version": "0.1.29",
-  "description": "基于React Native技术框架的超图地理信息应用开发工具，使用javascript语言即可编写地图移动应用程序！Supermap GIS SDK production base on React Native framework, which program geology App with Javascript language!",
+  "description": "iMobile for JavaScript，是SuperMap iMobile推出的一款基于React-Native框架的移动应用开发工具。基于该开发工具，用户可以使用JavaScript开发语言，开发出在Android和IOS操作系统下运行的原生移动GIS应用，入门门槛低，一次开发，处处运行。",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
